@@ -1,0 +1,10 @@
+additionalProperties:
+  cleanupOutput: true
+  supportsES6: true
+  useSingleRequestParameter: true
+  nullSafeAdditionalProps: true
+  withoutPrefixEnums: true
+  enumNameSuffix: ''
+  withSeparateModelsAndApi: true
+  modelPackage: models
+  apiPackage: api

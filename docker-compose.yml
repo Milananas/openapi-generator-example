@@ -1,0 +1,7 @@
+services:
+  openapi-generator:
+    image: openapitools/openapi-generator-cli
+    volumes:
+      - ./openapi.json:/local/openapi.json
+      - ./openapi-config.yaml:/local/openapi-config.yaml
+      - ./generated:/local/generated
